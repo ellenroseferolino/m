@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head> 
+  <body class= 'theme-purple'>
+    <!-- Views -->
+
+
+
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+ 
+          
+
+            <!-- NAV BAR TITLE -->
+            <div class="navbar"
+            align="center">
+
+                 <img src="Logoko.png" alt="HTML5 Icon" style="width:250px;height:50px;"> 
+                 </div>
+ 
+            <!--CREATOR NAME -->
+            <div class="toolbar">
+              <div class="toolbar-inner">
+                <!-- Toolbar links -->
+                <div class="right">-------------</div>
+              <div class="center">By: Ellen Rose S. Ferolino</div>
+                <div class="left">-------------</div>
+              </div>
+            </div>
+ 
+            <!-- INPUT BOX-->
+    <div class="list-block">
+       <ul>
+     <li>    
+       <div class="page-content">
+    
+        <div class="item-content">
+          <div class="item-inner">
+            <div class="item-title label">Enter No. :</div>
+          <div class="item-input">
+
+            <input type="text" data-cmd= 'numbers'; 
+             placeholder=" Enter Here...">
+          </div>
+        </div>
+      </div>
+
+          <!--BUTTON-->
+    </li>
+    </ul>
+
+        <div class="item-content">
+
+          <div class="item-inner">
+
+           <a ></a>
+           <a ></a>
+            <a id='btn_calculate' allign="center" class="button button-raised button-fill color-purple">CALCULATE</a><a ></a>
+           </div>
+
+           <!--OUTPUT FIELD AND PICTURE-->
+        </div>
+           </div>
+            <div id='statsHere' align = "center" >
+            <p><b>RESULTS</b></p>
+            Mean <br>
+            Median<br>
+            Mode
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+</html>
